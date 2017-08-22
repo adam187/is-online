@@ -7,7 +7,11 @@ const defaults = {
 	version: 'v4'
 };
 
-module.exports = options => {
+module.exports = function (options) {
 	options = Object.assign({}, defaults, options);
-	return publicIp[options.version](options).then(() => true).catch(() => false);
+	return publicIp[options.version](options).then(function () {
+		return true;
+	}).catch(function () {
+		return false;
+	});
 };
