@@ -47,7 +47,7 @@
     "got": "^6.7.1",
     "p-any": "^1.0.0",
     "p-timeout": "^1.0.0",
-    "public-ip": "^2.3.0"
+    "public-ip": "adam187/public-ip#8c16137ae124fd450ff920f480d73ac59329cbce"
   },
   "devDependencies": {
     "ava": "*",
