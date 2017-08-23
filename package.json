@@ -1,6 +1,6 @@
 {
   "name": "is-online",
-  "version": "7.0.0-custom-build-4",
+  "version": "7.0.0-custom-build-5",
   "description": "Check if the internet connection is up",
   "license": "MIT",
   "repository": "sindresorhus/is-online",
@@ -47,7 +47,7 @@
     "got": "^6.7.1",
     "p-any": "^1.0.0",
     "p-timeout": "^1.0.0",
-    "public-ip": "adam187/public-ip#fcbf3fab53a29bf03d12838265ede00cb2c4cea5"
+    "public-ip": "adam187/public-ip#2210b9112945c2607f5b3762bbc69cd84cb75ce0"
   },
   "devDependencies": {
     "ava": "*",
